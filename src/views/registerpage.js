@@ -19,31 +19,39 @@ const Registerpage = (props) => {
           <br></br>
         </label>
         <div className="registerpage-container2">
-          <label className="registerpage-account">Tài khoản</label>
+          <label className="registerpage-account">Email       </label>
           <input
             type="text"
-            placeholder="Nhập tài khoản"
+            placeholder="Nhập email"
             className="registerpage-account1 input"
           />
         </div>
         <div className="registerpage-container3">
-          <label className="registerpage-password">Mật khẩu </label>
+          <label className="registerpage-account2">Tài khoản</label>
           <input
-            type="password"
-            placeholder="Nhập mật khẩu"
-            className="registerpage-password1 input"
+            type="text"
+            placeholder="Nhập tài khoản"
+            className="registerpage-account3 input"
           />
         </div>
         <div className="registerpage-container4">
-          <label className="registerpage-password2">Xác nhận</label>
+          <label className="registerpage-account4">Mật khẩu</label>
           <input
             type="password"
-            placeholder="Xác nhận mật khẩu"
-            className="registerpage-password3 input"
+            placeholder="Nhập mật khẩu"
+            className="registerpage-account5 input"
           />
         </div>
         <div className="registerpage-container5">
-          <div className="registerpage-container6">
+          <label className="registerpage-account6">Xác nhận</label>
+          <input
+            type="password"
+            placeholder="Nhập lại mật khẩu"
+            className="registerpage-account7 input"
+          />
+        </div>
+        <div className="registerpage-container6">
+          <div className="registerpage-container7">
             <Link to="/" className="registerpage-navlink">
               Về trang chủ
             </Link>

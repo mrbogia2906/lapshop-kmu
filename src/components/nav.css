@@ -12,19 +12,22 @@
   height: auto;
   display: flex;
   align-items: flex-start;
+  margin-right: var(--dl-space-space-twounits);
   flex-direction: row;
 }
 .nav-textinput {
-  width: 211px;
+  width: 212px;
   height: 48px;
 }
 .nav-navlink {
   display: contents;
 }
-.nav-icon {
-  width: 33px;
-  height: 42px;
-  align-self: flex-end;
+.nav-image {
+  width: 53px;
+  height: 45px;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
   text-decoration: none;
 }
 .nav-navlink1 {

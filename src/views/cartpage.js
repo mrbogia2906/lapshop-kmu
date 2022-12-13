@@ -19,6 +19,7 @@ const Cartpage = (props) => {
       <div className="cartpage-cart">
         <div className="cartpage-categoryproducts">
           <Productcartinfo></Productcartinfo>
+          <Productcartinfo></Productcartinfo>
         </div>
         <div className="cartpage-btncart">
           <div className="cartpage-sum">

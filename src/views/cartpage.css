@@ -8,9 +8,8 @@
   justify-content: space-between;
 }
 .cartpage-cart {
-  flex: 1;
   width: 100%;
-  height: auto;
+  height: 975px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -33,9 +32,8 @@
   flex-direction: column;
 }
 .cartpage-sum {
-  flex: 1;
   width: 100%;
-  height: auto;
+  height: 95px;
   display: flex;
   align-items: flex-start;
   flex-direction: row;
@@ -60,10 +58,10 @@
   flex-direction: column;
 }
 .cartpage-btnorder {
-  flex: 1;
   color: rgb(255, 255, 255);
   width: 100%;
   cursor: pointer;
+  height: 72px;
   margin: 10px 0;
   font-size: 18px;
   align-self: center;
@@ -76,11 +74,11 @@
   background-image: initial;
 }
 .cartpage-btnbuymore {
-  flex: 1;
   color: rgb(255, 147, 0);
   width: 100%;
   border: 1px solid #FF9300;
   cursor: pointer;
+  height: 95px;
   margin: 10px 0;
   font-size: 18px;
   align-self: center;

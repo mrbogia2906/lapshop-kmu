@@ -1,11 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 import PropTypes from 'prop-types'
 
 import './productcartinfo.css'
 
 const Productcartinfo = (props) => {
-  const [isClick, setIsClick] = useState(false)
   return (
     <div className="productcartinfo-container">
       <img
@@ -23,10 +22,7 @@ const Productcartinfo = (props) => {
         </div>
         <div className="productcartinfo-productquantity">
           <span className="productcartinfo-text1">{props.text}</span>
-          <button
-            onClick={() => setIsClick(true)}
-            className="productcartinfo-btninc button"
-          >
+          <button className="productcartinfo-btninc button">
             {props.btn_inc}
           </button>
           <input

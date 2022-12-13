@@ -1,0 +1,143 @@
+.update-accountpage-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.update-accountpage-hero {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  max-width: var(--dl-size-size-maxwidth);
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.update-accountpage-container1 {
+  flex: 0 0 auto;
+  width: 349px;
+  height: 359px;
+  display: flex;
+  align-self: flex-start;
+  margin-top: 0px;
+  align-items: space-between;
+  flex-direction: column;
+}
+.update-accountpage-image {
+  width: 286px;
+  height: 309px;
+  object-fit: cover;
+}
+.update-accountpage-container2 {
+  display: flex;
+  margin-left: var(--dl-space-space-twounits);
+  flex-direction: column;
+}
+.update-accountpage-text {
+  font-size: 3rem;
+}
+.update-accountpage-btn-group {
+  width: 890px;
+  height: 52px;
+  display: flex;
+  margin-top: 0px;
+  align-items: center;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.update-accountpage-text1 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  padding-right: var(--dl-space-space-unit);
+}
+.update-accountpage-btn-group1 {
+  width: 890px;
+  height: 52px;
+  display: flex;
+  margin-top: 0px;
+  align-items: center;
+  margin-bottom: 0px;
+  flex-direction: row;
+}
+.update-accountpage-text2 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  padding-right: var(--dl-space-space-unit);
+}
+.update-accountpage-textinput1 {
+  width: 730px;
+  height: 34px;
+}
+.update-accountpage-btn-group2 {
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.update-accountpage-button {
+  color: var(--dl-color-gray-white);
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: rgb(243, 183, 9);
+}
+.update-accountpage-button:hover {
+  transform: scale(1.02);
+}
+@media(max-width: 991px) {
+  .update-accountpage-hero {
+    padding: var(--dl-space-space-threeunits);
+    flex-direction: column;
+  }
+  .update-accountpage-image {
+    order: 2;
+  }
+  .update-accountpage-container2 {
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .update-accountpage-text {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .update-accountpage-hero {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .update-accountpage-image {
+    width: 80%;
+  }
+}
+@media(max-width: 479px) {
+  .update-accountpage-hero {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .update-accountpage-container2 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .update-accountpage-btn-group {
+    flex-direction: column;
+  }
+  .update-accountpage-btn-group1 {
+    flex-direction: column;
+  }
+  .update-accountpage-btn-group2 {
+    flex-direction: column;
+  }
+}

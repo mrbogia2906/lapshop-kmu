@@ -1,32 +1,31 @@
-.registerpage-container {
+.reset-passpage-container {
   width: 100%;
   display: flex;
   overflow: auto;
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
 }
-.registerpage-container1 {
+.reset-passpage-container1 {
   width: 957px;
-  height: 613px;
+  height: 984px;
   display: flex;
   align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
+  padding-top: 28px;
   padding-left: var(--dl-space-space-halfunit);
   padding-right: var(--dl-space-space-halfunit);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-halfunit);
   justify-content: center;
 }
-.registerpage-text {
+.reset-passpage-text {
   height: auto;
   align-self: center;
   margin-left: var(--dl-space-space-fourunits);
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
-.registerpage-container2 {
+.reset-passpage-container2 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -34,14 +33,14 @@
   align-items: flex-start;
   justify-content: center;
 }
-.registerpage-account {
+.reset-passpage-account {
   margin-top: var(--dl-space-space-halfunit);
   margin-right: var(--dl-space-space-unit);
 }
-.registerpage-account1 {
+.reset-passpage-account1 {
   width: 267px;
 }
-.registerpage-container3 {
+.reset-passpage-container3 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -49,14 +48,14 @@
   align-items: flex-start;
   justify-content: center;
 }
-.registerpage-account2 {
+.reset-passpage-account2 {
   margin-top: var(--dl-space-space-halfunit);
   margin-right: var(--dl-space-space-unit);
 }
-.registerpage-account3 {
+.reset-passpage-account3 {
   width: 267px;
 }
-.registerpage-container4 {
+.reset-passpage-container4 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -64,37 +63,7 @@
   align-items: flex-start;
   justify-content: center;
 }
-.registerpage-account4 {
-  margin-top: var(--dl-space-space-halfunit);
-  margin-right: var(--dl-space-space-unit);
-}
-.registerpage-account5 {
-  width: 267px;
-}
-.registerpage-container5 {
-  flex: 0 0 auto;
-  width: auto;
-  height: auto;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-}
-.registerpage-account6 {
-  margin-top: var(--dl-space-space-halfunit);
-  margin-right: var(--dl-space-space-unit);
-}
-.registerpage-account7 {
-  width: 267px;
-}
-.registerpage-container6 {
-  flex: 0 0 auto;
-  width: auto;
-  height: auto;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-}
-.registerpage-container7 {
+.reset-passpage-container5 {
   flex: 0 0 auto;
   width: 478px;
   height: 50px;
@@ -102,7 +71,7 @@
   align-items: center;
   justify-content: center;
 }
-.registerpage-navlink {
+.reset-passpage-navlink {
   color: #2d2b2b;
   width: auto;
   padding: 7px;
@@ -117,7 +86,7 @@
   text-decoration: none;
   background-color: #D9D9D9;
 }
-.registerpage-navlink1 {
+.reset-passpage-text4 {
   color: var(--dl-color-gray-white);
   margin-top: var(--dl-space-space-halfunit);
   margin-left: var(--dl-space-space-fiveunits);
@@ -127,10 +96,9 @@
   border-radius: var(--dl-radius-radius-radius8);
   padding-right: var(--dl-space-space-halfunit);
   padding-bottom: var(--dl-space-space-halfunit);
-  text-decoration: none;
   background-color: rgb(158, 235, 159);
 }
-.registerpage-navlink2 {
+.reset-passpage-navlink2 {
   color: var(--dl-color-gray-white);
   align-self: flex-end;
   margin-top: var(--dl-space-space-halfunit);

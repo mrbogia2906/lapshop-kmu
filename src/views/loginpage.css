@@ -31,7 +31,7 @@
   width: auto;
   height: auto;
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
   justify-content: center;
 }
 .loginpage-account {
@@ -39,14 +39,14 @@
   margin-right: var(--dl-space-space-unit);
 }
 .loginpage-account1 {
-  width: 267px;
+  width: auto;
 }
 .loginpage-container3 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
   justify-content: center;
 }
 .loginpage-password {
@@ -54,7 +54,7 @@
   margin-right: var(--dl-space-space-unit);
 }
 .loginpage-password1 {
-  width: 267px;
+  width: auto;
   height: auto;
 }
 .loginpage-container4 {
